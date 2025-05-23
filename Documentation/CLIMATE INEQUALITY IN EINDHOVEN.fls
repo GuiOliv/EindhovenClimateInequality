@@ -1,0 +1,59 @@
+PWD c:\Users\User\source\repos\EindhovenClimateInequality\EindhovenClimateInequality\Documentation
+INPUT C:\Users\User\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\User\source\repos\EindhovenClimateInequality\EindhovenClimateInequality\Documentation\CLIMATE INEQUALITY IN EINDHOVEN.tex
+OUTPUT CLIMATE INEQUALITY IN EINDHOVEN.log
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\blindtext\blindtext.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\CLIMATE INEQUALITY IN EINDHOVEN.aux
+INPUT .\CLIMATE INEQUALITY IN EINDHOVEN.aux
+INPUT CLIMATE INEQUALITY IN EINDHOVEN.aux
+OUTPUT CLIMATE INEQUALITY IN EINDHOVEN.aux
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT CLIMATE INEQUALITY IN EINDHOVEN.pdf
+INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT CLIMATE INEQUALITY IN EINDHOVEN.aux
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
