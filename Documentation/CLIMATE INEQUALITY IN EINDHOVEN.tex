@@ -2,16 +2,46 @@
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{blindtext}
-\title{Climate Inequality in Eindhoven}
+\title{PM2.5 Incidence Inequality in Eindhoven}
 \author{Guilherme Oliveira}
 \date{\today}
 \begin{document}
 \maketitle
 \begin{multicols}{2}
-    [
     \section{Introduction}
-    Hello, this is a test document to check the LaTeX formatting and the inclusion of images. Below is an example of how to include an image in LaTeX.
-    ]
-    \blindtext\blindtext
+    PM2.5 and other classifications of air pollution are a pressing issue often dismissed in the public discourse. However, the effects of air pollution need not just to be further explored and researched but reiterated and emphasised to the public, as PM2.5 pollution becomes more and more of a problem in public health.
+    PM2.5 as air pollution has significant impact on asthma patients, in respiratory inflammation, lung function and is a known carcinogen. All of these effects have an impact on life expectancy; in the European Union, it decreased the average life span by 8.6 months \cite{xing2016impact}. Another source points to an estimated 5.8\% increase in deaths \cite{Schwartz01101996}. According to the World Health Organisation, PM2.5 is responsible for 4.2 million premature cardiovascular, respiratory and cancer deaths \cite{THURSTON2022107066}.
+    Tangential to this issue are the significant inequalities in exposure to pollution and other factors of which access to green spaces, will be tackled and analysed in this report.  Because rooted in the choice of researching and writing about this topic is the acknowledgement that technical skills like Machine Learning and Data Science can be used to advise public policy and keep governments accountable for their inaction, while also starting a conversation about topics which are on the public interest. Thusly, to research a topic such as the relation between income inequality, PM2.5 and access to green spaces in my local community of Eindhoven, becomes a way of activism and utilising skills which would be otherwise utilised for profit gains becomes a form of activism.
+    As such, I justify this research as a way to highlight potential inequalities in Eindhoven and proactively advise the local government to conduct further investigation and action to minimise these inequalities.
+    PM2.5 are particles smaller than 2.5~\(\mu\)m, although the chemical composition of the particles is not taken into account when categorising. W. Gene Tucker highlights that not every particle is the same when it comes to its effects on human exposure. Access to green spaces and especially their maintenance and proximity to residency is an important factor for public health. Yet, it is an unknown factor, despite how important it would be to highlight and solve it, if income inequality has any effect on PM2.5 exposure and access to green spaces. Understanding the relation between wealth inequality and factors related to public health is important because, if the hypothesis that lower income neighborhoods are more exposed to PM2.5 and have less access to green spaces could mean that communtities which have less money to spend on health care could be more exposed to conditions which could warrant expensive treatment or debilitation in labour capacity, therefore making them even more vulnerable. Lower income communities often also suffer from more stress, and therefore would be the ones which the access to green spaces is most crucial for relaxation and community building. This research is necessary because these inequalities must be highlighted in order to build a more fair, equitable society.
+    The main research question is: \textbf{Is there a correlation between air pollution exposure (PM2.5 and Nitrogen Dioxide), income inequality and access to green spaces in Eindhoven?}
+    The research question will be asked using machine learning and data analysis techniques to analyse public datasets. Based on the results, this report will provide direct advice on what the local government of Eindhoven should do to mitigate the issue. With such efforts, this study aims to achieve change in attenuating social inequalities.
+    \section{Methodology}
+    In order to find if there is a correlation between PM2.5 and access to green spaces with income, the data must be collected, cleaned, preprocessed, analysed and then played with using different machine learning (ML) models. These methods will be described in length in this section of the report.
+    \subsection{Data Collection}
+    The data was collected from publicly available datasets accessible via the municipality's website, in the Open Data section. There are 4 datasets which were relevant enough to collect:
+    \begin{itemize}
+        \item Air Pollution data (PM2.5, along with PM10, PM1 and Nitrogen Dioxide), which also contain geographical data for each sensor and timestamp. This data was requested the platform which consumes the API that the municipality uses. A script was created to request the data from 2021 to 2025 by using Selenium to navigate the website and change the timespan \cite{eindhoven_pm25_data}. For replication purposes, refer to the script-csvs.py script in the repository. Another script was composed to merge all of those tiny datasets into a larger dataset by separating the header rows and the value rows, getting the columns and, while iterating for each sensor, filling in the columns with the correct values. The merged dataset ends up containing all the data from those small datasets into one, with a frequency in records of 1 day per sensor.
+        \item Income per neighborhood data, which contains the average income per capita per neighborhood in Eindhoven throughout the years. \cite{eindhoven_incijfers}
+        \item Green spaces data, which contains geographical data for each green space, along with year of construction, size and neighborhood. \cite{eindhoven_groen_data}
+        \item Neighborhood Geographical Location data, so it can be merged with the income per neighborhood data, which only contains the name of the neighborhood. \cite{eindhoven_buurten_data}
+    \end{itemize}
+    All of the datasets were downloaded in CSV format.
+    All quality of data is of the responsibility of the municipality.
+    \subsection{Data Cleaning}
+    All data was cleaned using Python and the Pandas library.
+    No treatment was done to the income data, as it was already clean enough for the purposes of this analysis.
+    \subsubsection{Air Pollution Data}
+    Upon being loaded into a DataFrame, numerical columns like Latitude, Longitude, PM1, PM2.5 and PM10 shall be converted into a numerical value and the original separation by coma is replaced by a dot, for easier processing. Local time is converted into a datetime type and UTC time is dropped.
+    From a list of essential columns, like SensorID, PM1, PM2.5 and PM10, all the null values should be dropped dropped. The DataFrame is then grouped by Sensor and all values are resampled by year and aggregated with statistical summaries (mean, median, standard deviation (std), min and max).
+    After saving the dataset, manually, the neighbourhoods are added into the csv file based on their ID and the map available at the municipality's website \cite{eindhoven_realtime_pm_data}. Once that manual task is done, its loaded back again into a DataFrame, all the rows without a neighbourhood should be dropped. The dataset with neighbourhood data is loaded into its own DataFrame and, based on the name on the neighbourhood, the latitude, longitude and coordinates are added to the air pollution DataFrame. This is done by mapping each Sensor ID to a Neighbourhood and getting their geographical data. Thusly, each record gets their added geographical data based on the SensorID.
+    \subsubsection{Green Spaces Data}
+    The csv file is loaded into a DataFrame. The geographical points are split into Latitude and Longitude columns, where they are then converted into numerical values. The geographical points and shape columns, along with street and technique columns, are dropped out of the DataFrame as they are deemed unnecessary for the analysis.
+    \subsection{Data Preprocessing}
+    
 \end{multicols}
+
+\bibliographystyle{plain}
+\bibliography{sources}
+
 \end{document}
