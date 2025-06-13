@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.13)  13 JUN 2025 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.13)  13 JUN 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -215,7 +215,7 @@ Overfull \hbox (88.0242pt too wide) in paragraph at lines 10--16
 \OT1/cmr/m/n/12 https://data.eindhoven.nl/explore/dataset/buurten/information/?disjunctive.buurtnaam,
  []
 
-) [4] (CLIMATE INEQUALITY IN EINDHOVEN.aux)
+[4]) [5] (CLIMATE INEQUALITY IN EINDHOVEN.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -230,9 +230,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,6n,65p,1453b,314s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\pinky\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "CLIMATE INEQUALITY IN EINDHOVEN.pdf" (4 pages, 86203 bytes).
+Output written on "CLIMATE INEQUALITY IN EINDHOVEN.pdf" (5 pages, 87326 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

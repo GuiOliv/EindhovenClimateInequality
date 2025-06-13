@@ -38,7 +38,8 @@
     \subsubsection{Green Spaces Data}
     The csv file is loaded into a DataFrame. The geographical points are split into Latitude and Longitude columns, where they are then converted into numerical values. The geographical points and shape columns, along with street and technique columns, are dropped out of the DataFrame as they are deemed unnecessary for the analysis.
     \subsection{Data Preprocessing}
-    
+    The air pollution dataset unfortunately does not encompass all the neighbourhoods in Eindhoven. So, in order to make a more complete analysis in how income per neighbourhood related to air pollution exposure, data enhancement is employed. Two techniques were used in combination: compute the values using Haversine distance and predicting the values using a Random Forest Regressor. The use of both techniques in tandem is to ensure better accuracy and that the values better reflect real life. It is important to note that the values are not exact but hopefully are approximate enough to be useful for comparison with other neighbourhoods and correlation analysis.
+
 \end{multicols}
 
 \bibliographystyle{plain}
