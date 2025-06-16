@@ -38,8 +38,32 @@
     \subsubsection{Green Spaces Data}
     The csv file is loaded into a DataFrame. The geographical points are split into Latitude and Longitude columns, where they are then converted into numerical values. The geographical points and shape columns, along with street and technique columns, are dropped out of the DataFrame as they are deemed unnecessary for the analysis.
     \subsection{Data Preprocessing}
-    The air pollution dataset unfortunately does not encompass all the neighbourhoods in Eindhoven. So, in order to make a more complete analysis in how income per neighbourhood related to air pollution exposure, data enhancement is employed. Two techniques were used in combination: compute the values using Haversine distance and predicting the values using a Random Forest Regressor. The use of both techniques in tandem is to ensure better accuracy and that the values better reflect real life. It is important to note that the values are not exact but hopefully are approximate enough to be useful for comparison with other neighbourhoods and correlation analysis.
+    The air pollution dataset unfortunately does not encompass all the neighbourhoods in Eindhoven. So, in order to make a more complete analysis in how income per neighbourhood relates to air pollution exposure, data enhancement is employed. Two techniques were used in combination: compute the values using Inverse Distance Weighting (IDW) and predicting the values using a Random Forest Regressor. The use of both techniques in tandem is to ensure better accuracy and that the values better reflect real life. It is important to note that the values are not exact but hopefully are approximate enough to be useful for comparison with other neighbourhoods and correlation analysis.
+    At first, the air pollution dataset (after cleaning) and the neighborhoods dataset are loaded. Then the missing neighborhoods are identified by checking which neighborhoods are not present in the air pollution dataset. Then IDW is applied to estimate the air pollution values for the missing neighborhoods based on the values from neighbouring locations. Essentially, the missing values are computed according to the following formula: 
+    \begin{equation}
+        \hat{v}(x, y) = \frac{\sum_{i=1}^n \frac{v_i}{d_i^p}}{\sum_{i=1}^n \frac{1}{d_i^p}}  
+    \end{equation}
+    where $d_i^p$ is the Haversine Distance.
 
+    Upon these computations, the same process is repeated, but instead of applying IDW, a Random Forest Regressor model is trained for every column in the origional dataset and used to predict the missing neighbourhoods.
+    After both of these processes, the mean of the two separate predictions is calculated and taken as the value for the previously unknown neighborhoods. Forethermore, the DataFrame with the real values is contactenated to the new DataFrame, so the real values stay intact.
+    \subsection{Machine Learning Models}
+    All models tested and trained used as target the income of a neighborhood in 2022, because thats when the dataset is most complete, and total green space, number of green areas, average size of green areas, distance to green spaces, Mean of PM2.5, Mean of PM10 and Mean of NO2 as features. The air pollution dataset is grouped by Neighborhood and aggregated by the mean for PM2.5, PM10, NO2 and coordinates.
+    The green spaces dataset is grouped by neighborhood and aggregated by the sum, count and mean for surface area. The distance between each neighborhood and the nearest green space is also calculated.
+    All datasets are then merged into one.
+
+    All features are scaled using a Standard Scaler and the dataset is split using a 80/20 split, with 80\% of the data being used for training and 20\% for testing. The models are trained using the training set and evaluated using the test set.
+    The following models were tested:
+    \begin{itemize}
+        \item Linear Regression
+        \item Ridge Regression (alpha = 1.0)
+        \item Lasso Regression (alpha = 0.1)
+        \item Random Forest Regressor (100 estimators)
+        \item Gradient Boosting Regressor (100 estimators)
+        \item Support Vector Regressor (kernel = 'rbf', C = 100)
+        \item K-Nearest Neighbors Regressor (5 neighbors)
+        \item K Means Clustering (4 clusters)
+    \end{itemize}
 \end{multicols}
 
 \bibliographystyle{plain}
