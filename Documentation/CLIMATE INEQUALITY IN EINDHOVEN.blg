@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CLIMATE INEQUALITY IN EINDHOVEN.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+Database file #1: sources.bib
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            558 strings with 5956 characters,
+and the built_in function-call counts, 2841 in all, are:
+= -- 283
+> -- 110
+< -- 0
++ -- 46
+- -- 34
+* -- 146
+:= -- 497
+add.period$ -- 41
+call.type$ -- 11
+change.case$ -- 49
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 97
+empty$ -- 252
+format.name$ -- 34
+if$ -- 597
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 6
+newline$ -- 66
+num.names$ -- 22
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 39
+quote$ -- 0
+skip$ -- 71
+stack$ -- 0
+substring$ -- 124
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 0
+while$ -- 27
+width$ -- 13
+write$ -- 133
