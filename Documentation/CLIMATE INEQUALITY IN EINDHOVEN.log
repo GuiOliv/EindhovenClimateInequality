@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.22)  16 JUN 2025 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.13)  17 JUN 2025 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/User/source/repos/EindhovenClimateInequality/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex"
-(c:/Users/User/source/repos/EindhovenClimateInequality/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex
+**"c:/Users/pinky/source/repos/OL/Semester6/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex"
+(c:/Users/pinky/source/repos/OL/Semester6/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
@@ -23,25 +23,25 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count195
 \mult@box=\box51
@@ -110,9 +110,9 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
 \mc@col@check@num=\count270
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count271
@@ -133,111 +133,157 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count286
 \c@blind@pangramcount=\count287
 \c@blind@pangrammax=\count288
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box97
+\extrarowheight=\dimen153
+\NC@list=\toks18
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box98
+)
+\TX@col@width=\dimen154
+\TX@old@table=\dimen155
+\TX@old@col=\dimen156
+\TX@target=\dimen157
+\TX@delta=\dimen158
+\TX@cols=\count289
+\TX@ftn=\toks19
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
-\l__pdf_internal_box=\box97
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box99
 ) (CLIMATE INEQUALITY IN EINDHOVEN.aux)
 \openout1 = `"CLIMATE INEQUALITY IN EINDHOVEN.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen152
-\scratchbox=\box98
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen153
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks19
-) (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count291
+\scratchdimen=\dimen159
+\scratchbox=\box100
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen160
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks21
+) (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\pinky\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 9.
+(Font)              <14.4> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 16.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 16.
- [1
+(Font)              <7> on input line 10.
 
-{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+LaTeX Warning: Citation `xing2016impact' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Citation `Schwartz01101996' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Citation `THURSTON2022107066' on page 1 undefined on input line 14.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 17.
+[1
+
+{C:/Users/pinky/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: Citation `eindhoven_pm25_data' on page 2 undefined on input line 25.
+
+[2]
+
+LaTeX Warning: Citation `eindhoven_incijfers' on page 3 undefined on input line 26.
+
+
+LaTeX Warning: Citation `eindhoven_groen_data' on page 3 undefined on input line 27.
+
+
+LaTeX Warning: Citation `eindhoven_buurten_data' on page 3 undefined on input line 28.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []\OT1/cmr/m/n/12 Neighborhood Ge-o-graph-i-cal
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 35--38
+LaTeX Warning: Citation `eindhoven_realtime_pm_data' on page 3 undefined on input line 38.
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 36--39
 \OT1/cmr/m/n/12 nu-mer-i-cal columns like Lat-i-tude,
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 39--40
+Underfull \hbox (badness 6893) in paragraph at lines 40--41
 \OT1/cmr/m/n/12 The csv file is loaded into a
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []\OT1/cmr/bx/n/14.4 Machine Learn-ing
  []
 
-[4] (CLIMATE INEQUALITY IN EINDHOVEN.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 10--16
-[]\OT1/cmr/m/n/12 Municipality of Eind-hoven.  Neigh-
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/12 Support Vec-tor Re-gres-sor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--16
-\OT1/cmr/m/n/12 bor-hoods eind-hoven (bu-urten eind-hoven).
- []
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' environment!.
 
 
-Overfull \hbox (88.0242pt too wide) in paragraph at lines 10--16
-\OT1/cmr/m/n/12 https://data.eindhoven.nl/explore/dataset/buurten/information/?disjunctive.buurtnaam,
- []
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' environment!.
 
-[5]) [6] (CLIMATE INEQUALITY IN EINDHOVEN.aux)
+(CLIMATE INEQUALITY IN EINDHOVEN.bbl) [5] (CLIMATE INEQUALITY IN EINDHOVEN.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 1669 strings out of 474486
- 29310 string characters out of 5744227
+ 1781 strings out of 474485
+ 30912 string characters out of 5743734
  1936542 words of memory out of 5000000
- 23975 multiletter control sequences out of 15000+600000
- 563921 words of font info for 55 fonts, out of 8000000 for 9000
+ 24084 multiletter control sequences out of 15000+600000
+ 563574 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,1466b,314s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "CLIMATE INEQUALITY IN EINDHOVEN.pdf" (6 pages, 128429 bytes).
+ 57i,15n,65p,1453b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\pinky\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/pinky/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on "CLIMATE INEQUALITY IN EINDHOVEN.pdf" (5 pages, 112813 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
