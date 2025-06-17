@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex CLIMATE INEQUALITY IN EINDHOVEN"] 1750201096.399 "CLIMATE INEQUALITY IN EINDHOVEN.aux" "CLIMATE INEQUALITY IN EINDHOVEN.bbl" "CLIMATE INEQUALITY IN EINDHOVEN" 1750201898.59512 0
+["bibtex CLIMATE INEQUALITY IN EINDHOVEN"] 0 "CLIMATE INEQUALITY IN EINDHOVEN.aux" "CLIMATE INEQUALITY IN EINDHOVEN.bbl" "CLIMATE INEQUALITY IN EINDHOVEN" 0 -1
   "./sources.bib" 1750199539 12582 203edcce5df53c1a173feca668910da1 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "CLIMATE INEQUALITY IN EINDHOVEN.aux" 1750201898 4125 b2811ccde684453459a0ea7f121b9b06 "pdflatex"
+  "CLIMATE INEQUALITY IN EINDHOVEN.aux" 1750202065 3885 b449e7a70f661ff5c2b6cf1628cb55c1 "pdflatex"
   (generated)
   "CLIMATE INEQUALITY IN EINDHOVEN.bbl"
   "CLIMATE INEQUALITY IN EINDHOVEN.blg"
   (rewritten before read)
-["pdflatex"] 1750201897.50281 "c:/Users/User/source/repos/EindhovenClimateInequality/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex" "CLIMATE INEQUALITY IN EINDHOVEN.pdf" "CLIMATE INEQUALITY IN EINDHOVEN" 1750201898.59553 0
+["pdflatex"] 1750202064.97661 "c:/Users/User/source/repos/EindhovenClimateInequality/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex" "CLIMATE INEQUALITY IN EINDHOVEN.pdf" "CLIMATE INEQUALITY IN EINDHOVEN" 1750202066.08146 2
   "../Images/feature_importance.png" 1750196158 28225 5100241fe60f30cfeca1742712b1e650 ""
   "../Images/kmeans_clusters.png" 1750196585 210467 1fef39ba99774da7e4d401da1860c766 ""
   "../Images/kmeans_map.png" 1750196890 619725 5216a6fc955380eb583663e75cb4eeae ""
@@ -32,7 +32,6 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
-  "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -43,7 +42,6 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
-  "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1705273579 20144 147463a6a579f4597269ef9565205cfe ""
@@ -61,10 +59,10 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/placeins/placeins.sty" 1113865200 4087 636308456f60d2b31cbf97867db5708d ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1700599895 4545 9f5ea23ab1c91476c42749893f790666 ""
-  "CLIMATE INEQUALITY IN EINDHOVEN.aux" 1750201898 4125 b2811ccde684453459a0ea7f121b9b06 "pdflatex"
-  "CLIMATE INEQUALITY IN EINDHOVEN.bbl" 1750201096 2816 cfe87bebcc8113d23ef2dacb1ae84daf "bibtex CLIMATE INEQUALITY IN EINDHOVEN"
-  "CLIMATE INEQUALITY IN EINDHOVEN.tex" 1750201897 24107 53d2e2176ccef95dd4c93bcbd3101525 ""
-  "c:/Users/User/source/repos/EindhovenClimateInequality/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex" 1750201897 24107 53d2e2176ccef95dd4c93bcbd3101525 ""
+  "CLIMATE INEQUALITY IN EINDHOVEN.aux" 1750202065 3885 b449e7a70f661ff5c2b6cf1628cb55c1 "pdflatex"
+  "CLIMATE INEQUALITY IN EINDHOVEN.bbl" 1750202032 0 d41d8cd98f00b204e9800998ecf8427e "bibtex CLIMATE INEQUALITY IN EINDHOVEN"
+  "CLIMATE INEQUALITY IN EINDHOVEN.tex" 1750202063 24582 97906cbe16bce27c9998f880931d9b9e ""
+  "c:/Users/User/source/repos/EindhovenClimateInequality/EindhovenClimateInequality/Documentation/CLIMATE INEQUALITY IN EINDHOVEN.tex" 1750202063 24582 97906cbe16bce27c9998f880931d9b9e ""
   (generated)
   "CLIMATE INEQUALITY IN EINDHOVEN.aux"
   "CLIMATE INEQUALITY IN EINDHOVEN.log"
