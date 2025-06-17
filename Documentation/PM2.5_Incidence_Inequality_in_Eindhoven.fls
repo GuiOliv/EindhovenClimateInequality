@@ -1,7 +1,7 @@
 PWD c:\Users\User\source\repos\EindhovenClimateInequality\EindhovenClimateInequality\Documentation
 INPUT C:\Users\User\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\User\source\repos\EindhovenClimateInequality\EindhovenClimateInequality\Documentation\PM2.5 Incidence Inequality in Eindhoven.tex
-OUTPUT PM2.5 Incidence Inequality in Eindhoven.log
+INPUT c:\Users\User\source\repos\EindhovenClimateInequality\EindhovenClimateInequality\Documentation\PM2.5_Incidence_Inequality_in_Eindhoven.tex
+OUTPUT PM2.5_Incidence_Inequality_in_Eindhoven.log
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -32,9 +32,14 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-OUTPUT PM2.5 Incidence Inequality in Eindhoven.aux
+INPUT .\PM2.5_Incidence_Inequality_in_Eindhoven.aux
+INPUT .\PM2.5_Incidence_Inequality_in_Eindhoven.aux
+INPUT PM2.5_Incidence_Inequality_in_Eindhoven.aux
+OUTPUT PM2.5_Incidence_Inequality_in_Eindhoven.aux
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -52,7 +57,6 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -61,7 +65,8 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT PM2.5 Incidence Inequality in Eindhoven.pdf
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT PM2.5_Incidence_Inequality_in_Eindhoven.pdf
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
@@ -100,9 +105,10 @@ INPUT ..\Images\pm25_per_neighborhood.png
 INPUT ..\Images\pm25_per_neighborhood.png
 INPUT ..\Images\pm25_per_neighborhood.png
 INPUT ..\Images\pm25_per_neighborhood.png
-INPUT .\PM2.5 Incidence Inequality in Eindhoven.bbl
-INPUT .\PM2.5 Incidence Inequality in Eindhoven.bbl
-INPUT PM2.5 Incidence Inequality in Eindhoven.bbl
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT .\PM2.5_Incidence_Inequality_in_Eindhoven.bbl
+INPUT .\PM2.5_Incidence_Inequality_in_Eindhoven.bbl
+INPUT PM2.5_Incidence_Inequality_in_Eindhoven.bbl
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT ..\Images\feature_importance.png
 INPUT ..\Images\feature_importance.png
@@ -124,7 +130,7 @@ INPUT ..\Images\pm25_per_neighborhood.png
 INPUT ..\Images\pm25_per_neighborhood.png
 INPUT ..\Images\pm25_per_neighborhood.png
 INPUT ..\Images\pm25_per_neighborhood.png
-INPUT PM2.5 Incidence Inequality in Eindhoven.aux
+INPUT PM2.5_Incidence_Inequality_in_Eindhoven.aux
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
@@ -151,3 +157,5 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
