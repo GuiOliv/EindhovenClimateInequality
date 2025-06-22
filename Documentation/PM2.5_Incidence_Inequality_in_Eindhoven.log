@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.22)  18 JUN 2025 01:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.22)  22 JUN 2025 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -213,12 +213,12 @@ Underfull \hbox (badness 6893) in paragraph at lines 45--46
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []\OT1/cmr/bx/n/14.4 Machine Learn-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 []\OT1/cmr/m/n/12 Support Vec-tor Re-gres-sor
  []
 
@@ -226,136 +226,160 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 <../Images/feature_importance.png, id=29, 570.933pt x 354.123pt>
 File: ../Images/feature_importance.png Graphic file (type png)
 <use ../Images/feature_importance.png>
-Package pdftex.def Info: ../Images/feature_importance.png  used on input line 98.
+Package pdftex.def Info: ../Images/feature_importance.png  used on input line 100.
 (pdftex.def)             Requested size: 175.49881pt x 108.853pt.
 <../Images/kmeans_clusters.png, id=31, 761.7258pt x 739.3221pt>
 File: ../Images/kmeans_clusters.png Graphic file (type png)
 <use ../Images/kmeans_clusters.png>
-Package pdftex.def Info: ../Images/kmeans_clusters.png  used on input line 107.
+Package pdftex.def Info: ../Images/kmeans_clusters.png  used on input line 109.
 (pdftex.def)             Requested size: 175.49881pt x 170.33382pt.
-<../Images/kmeans_map.png, id=32, 737.154pt x 692.3466pt>
+ [6 <../Images/feature_importance.png> <../Images/kmeans_clusters.png>]
+<../Images/kmeans_map.png, id=37, 737.154pt x 692.3466pt>
 File: ../Images/kmeans_map.png Graphic file (type png)
 <use ../Images/kmeans_map.png>
-Package pdftex.def Info: ../Images/kmeans_map.png  used on input line 121.
+Package pdftex.def Info: ../Images/kmeans_map.png  used on input line 123.
 (pdftex.def)             Requested size: 175.49881pt x 164.8249pt.
- [6 <../Images/feature_importance.png> <../Images/kmeans_clusters.png>]
 <../Images/shap_values.png, id=38, 560.8152pt x 303.534pt>
 File: ../Images/shap_values.png Graphic file (type png)
 <use ../Images/shap_values.png>
-Package pdftex.def Info: ../Images/shap_values.png  used on input line 129.
+Package pdftex.def Info: ../Images/shap_values.png  used on input line 131.
 (pdftex.def)             Requested size: 175.49881pt x 94.98381pt.
 <../Images/pm25_per_neighborhood.png, id=39, 1438.173pt x 468.3096pt>
 File: ../Images/pm25_per_neighborhood.png Graphic file (type png)
 <use ../Images/pm25_per_neighborhood.png>
-Package pdftex.def Info: ../Images/pm25_per_neighborhood.png  used on input line 138.
+Package pdftex.def Info: ../Images/pm25_per_neighborhood.png  used on input line 140.
 (pdftex.def)             Requested size: 175.49881pt x 57.14511pt.
- [7 <../Images/kmeans_map.png> <../Images/shap_values.png> <../Images/pm25_per_neighborhood.png>] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+ [7 <../Images/kmeans_map.png> <../Images/shap_values.png> <../Images/pm25_per_neighborhood.png>]
+<../Images/interim_target_4.png, id=47, 1148.3703pt x 714.7503pt>
+File: ../Images/interim_target_4.png Graphic file (type png)
+<use ../Images/interim_target_4.png>
+Package pdftex.def Info: ../Images/interim_target_4.png  used on input line 152.
+(pdftex.def)             Requested size: 175.49881pt x 109.22556pt.
+ [8 <../Images/interim_target_4.png>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\OT1/cmr/bx/n/17.28 Maintainability
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
 \OT1/cmtt/m/n/12 https : / / github . com / GuiOliv /
  []
 
 
-Overfull \vbox (14.93338pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+\OT1/cmtt/m/n/12 / / public . zenkit . com / c / uVzZR _
+ []
 
 
-Overfull \vbox (7.43338pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+\OT1/cmtt/m/n/12 LpqQ / eindhoven-[]inequality ? v =
+ []
 
- [9] (PM2.5_Incidence_Inequality_in_Eindhoven.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 16--22
+[10] (PM2.5_Incidence_Inequality_in_Eindhoven.bbl
+Underfull \hbox (badness 7796) in paragraph at lines 29--35
+[]\OT1/cmr/m/n/12 Municipality of Eind-hoven.  Zero-emissiezone en mi-lieu-zone.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+\OT1/cmr/m/n/12 https://www.eindhoven.nl/stad-en-wonen/verkeer/zero-emissiezone-en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
 []\OT1/cmr/m/n/12 Municipality of Eind-hoven.  Neigh-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--22
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
 \OT1/cmr/m/n/12 bor-hoods eind-hoven (bu-urten eind-hoven).
  []
 
 
-Overfull \hbox (93.89914pt too wide) in paragraph at lines 16--22
+Overfull \hbox (93.89914pt too wide) in paragraph at lines 43--49
 \OT1/cmr/m/n/12 https://data.eindhoven.nl/explore/dataset/buurten/information/?disjunctive.buurtnaam,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 []\OT1/cmr/m/n/12 Municipality of Eind-hoven.  Pub-lic green
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 \OT1/cmr/m/n/12 spaces eind-hoven (open-baar groen eind-hoven).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 \OT1/cmr/m/n/12 https://data.eindhoven.nl/explore/dataset/openbaar-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 []\OT1/cmr/m/n/12 World Health Or-ga-ni-za-tion.  \OT1/cmr/m/it/12 WHO Global Air Qual-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 \OT1/cmr/m/it/12 Guide-lines: Par-tic-u-late Mat-ter (PM2.5 and PM10), Ozone,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 \OT1/cmr/m/it/12 Ni-tro-gen Diox-ide, Sul-fur Diox-ide and Car-bon Monox-ide\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 46--51
+Underfull \hbox (badness 5504) in paragraph at lines 80--85
 \OT1/cmr/m/n/12 World Health Or-ga-ni-za-tion, Geneva, 2021.  Avail-able from:
  []
 
-[10])
+)
 File: ../Images/feature_importance.png Graphic file (type png)
 <use ../Images/feature_importance.png>
-Package pdftex.def Info: ../Images/feature_importance.png  used on input line 179.
+Package pdftex.def Info: ../Images/feature_importance.png  used on input line 191.
 (pdftex.def)             Requested size: 234.00238pt x 145.14273pt.
+ [12]
 File: ../Images/kmeans_clusters.png Graphic file (type png)
 <use ../Images/kmeans_clusters.png>
-Package pdftex.def Info: ../Images/kmeans_clusters.png  used on input line 186.
+Package pdftex.def Info: ../Images/kmeans_clusters.png  used on input line 198.
 (pdftex.def)             Requested size: 234.00238pt x 227.11176pt.
- [11]
 File: ../Images/kmeans_map.png Graphic file (type png)
 <use ../Images/kmeans_map.png>
-Package pdftex.def Info: ../Images/kmeans_map.png  used on input line 193.
+Package pdftex.def Info: ../Images/kmeans_map.png  used on input line 205.
 (pdftex.def)             Requested size: 234.00238pt x 219.78062pt.
+ [13]
 File: ../Images/shap_values.png Graphic file (type png)
 <use ../Images/shap_values.png>
-Package pdftex.def Info: ../Images/shap_values.png  used on input line 200.
+Package pdftex.def Info: ../Images/shap_values.png  used on input line 212.
 (pdftex.def)             Requested size: 234.00238pt x 126.64972pt.
- [12]
 File: ../Images/pm25_per_neighborhood.png Graphic file (type png)
 <use ../Images/pm25_per_neighborhood.png>
-Package pdftex.def Info: ../Images/pm25_per_neighborhood.png  used on input line 207.
+Package pdftex.def Info: ../Images/pm25_per_neighborhood.png  used on input line 219.
 (pdftex.def)             Requested size: 234.00238pt x 76.19588pt.
- [13] (PM2.5_Incidence_Inequality_in_Eindhoven.aux)
+File: ../Images/interim_target_4.png Graphic file (type png)
+<use ../Images/interim_target_4.png>
+Package pdftex.def Info: ../Images/interim_target_4.png  used on input line 226.
+(pdftex.def)             Requested size: 234.00238pt x 145.64136pt.
+ [14] [15] (PM2.5_Incidence_Inequality_in_Eindhoven.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1916 strings out of 474486
- 34247 string characters out of 5744227
- 1942542 words of memory out of 5000000
- 24207 multiletter control sequences out of 15000+600000
+ 1930 strings out of 474486
+ 34679 string characters out of 5744227
+ 1937542 words of memory out of 5000000
+ 24221 multiletter control sequences out of 15000+600000
  565039 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,1627b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PM2.5_Incidence_Inequality_in_Eindhoven.pdf (13 pages, 917908 bytes).
+Output written on PM2.5_Incidence_Inequality_in_Eindhoven.pdf (15 pages, 978858 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

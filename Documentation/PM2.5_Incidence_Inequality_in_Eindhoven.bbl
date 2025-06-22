@@ -1,10 +1,37 @@
 \begin{thebibliography}{10}
 
+\bibitem{sierraclub2019electrification}
+Sierra Club.
+\newblock Electrification for climate resiliency.
+\newblock Sierra Club website, 2019.
+\newblock Accessed 2024-06-11.
+
 \bibitem{smartcities8020053}
 Feifeng Jiang and Jun Ma.
 \newblock Environmental justice in the 15-minute city: Assessing air pollution
   exposure inequalities through machine learning and spatial network analysis.
 \newblock {\em Smart Cities}, 8(2), 2025.
+
+\bibitem{li2021spatiotemporal}
+Y.~Li, X.~Wang, J.~Wang, Y.~Zhang, Y.~Wang, S.~Wang, Q.~Zhang, Y.~Wei, X.~Wang,
+  and Y.~Wang.
+\newblock Spatiotemporal variations and socioeconomic drivers of pm2.5 in the
+  yangtze river delta, china.
+\newblock {\em Atmosphere}, 12(9):1086, 2021.
+
+\bibitem{li2023urban}
+Y.~Li, Y.~Wang, Y.~Zhang, S.~Wang, Q.~Zhang, Y.~Wei, X.~Wang, and Y.~Wang.
+\newblock Urban green space and pm2.5 pollution: Evidence from 290 chinese
+  cities.
+\newblock {\em Science of The Total Environment}, 858:159801, 2023.
+
+\bibitem{eindhoven_zero_emissiezone}
+Municipality of~Eindhoven.
+\newblock Zero-emissiezone en milieuzone.
+\newblock
+  https://www.eindhoven.nl/stad-en-wonen/verkeer/zero-emissiezone-en-milieuzone,
+  2024.
+\newblock Accessed 2024-06-11.
 
 \bibitem{eindhoven_incijfers}
 Municipality of~Eindhoven.
@@ -34,6 +61,13 @@ Municipality of~Eindhoven.
   https://data.eindhoven.nl/explore/dataset/real-time-fijnstof-monitoring,
   2025.
 \newblock Dataset accessed 2025-06-11.
+
+\bibitem{uttan2022climateresilient}
+University of~Toronto~Transportation and Air~Quality Network.
+\newblock Climate resilient and equitable mobility: Uttan student competition
+  report.
+\newblock University of Toronto Transportation and Air Quality Network, 2022.
+\newblock Accessed 2024-06-11.
 
 \bibitem{unfccc2015paris}
 United Nations Framework~Convention on~Climate~Change.

@@ -5,7 +5,7 @@
 \usepackage{float}
 \usepackage{placeins}
 \usepackage{url}
-\title{PM2.5 Incidence Inequality in Eindhoven}
+\title{PM2.5 Incidence and Access to Green Spaces in relation to Income Inequality in Eindhoven}
 \author{Guilherme Oliveira}
 \date{\today}
 \begin{document}
@@ -44,12 +44,14 @@
     \subsubsection{Green Spaces Data}
     The csv file is loaded into a DataFrame. The geographical points are split into Latitude and Longitude columns, where they are then converted into numerical values. The geographical points and shape columns, along with street and technique columns, are dropped out of the DataFrame as they are deemed unnecessary for the analysis.
     \subsection{Data Preprocessing}
-    The air pollution dataset unfortunately does not encompass all the neighbourhoods in Eindhoven. So, in order to make a more complete analysis of how income per neighbourhood relates to air pollution exposure, data enhancement is employed. Two techniques were used in combination: computing the values using Inverse Distance Weighting (IDW) and predicting the values using a Random Forest Regressor. The use of both techniques in tandem is to ensure better accuracy and that the values better reflect real life. It is important to note that the values are not exact but hopefully are approximate enough to be useful for comparison with other neighbourhoods and correlation analysis.
+    The air pollution dataset unfortunately does not encompass all the neighbourhoods in Eindhoven. So, in order to make a more complete analysis of how income per neighbourhood relates to air pollution exposure, data enhancement is employed. Two techniques were used in combination: computing the missing values using Inverse Distance Weighting (IDW) and predicting the values using a Random Forest Regressor. The use of both techniques in tandem is to ensure better accuracy and that the values better reflect real life. It is important to note that the values are not exact but hopefully are approximate enough to be useful for comparison with other neighbourhoods and correlation analysis.
     At first, the air pollution dataset (after cleaning) and the neighborhoods dataset are loaded. Then the missing neighborhoods are identified by checking which neighborhoods are not present in the air pollution dataset. Then IDW is applied to estimate the air pollution values for the missing neighborhoods based on the values from neighbouring locations. Essentially, the missing values are computed according to the following formula: 
     \begin{equation}
         \hat{v}(x, y) = \frac{\sum_{i=1}^n \frac{v_i}{d_i^p}}{\sum_{i=1}^n \frac{1}{d_i^p}}  
     \end{equation}
     where $d_i^p$ is the Haversine Distance.
+
+    The formula describes the Inverse Distance Weighting (IDW) method, where $\hat{v}(x, y)$ is the estimated value at the point $(x, y)$, $v_i$ are the known values at the points $i$, $d_i$ is the distance from the point $(x, y)$ to the point $i$, and $p$ is a power parameter that determines how much influence nearby points have on the estimated value. In this case, $p$ is set to 2, which means that closer points have a greater influence on the estimated value than farther points.
 
     Upon these computations, the same process is repeated, but instead of applying IDW, a Random Forest Regressor model is trained for every column in the original dataset and used to predict the missing neighbourhoods.
     After both of these processes, the mean of the two separate predictions is calculated and taken as the value for the previously unknown neighborhoods. Forethermore, the DataFrame with the real values is concatenated to the new DataFrame, so the real values stay intact.
@@ -143,12 +145,21 @@
     These results are plotted against a map containing the threshholds for dangerous levels of PM2.5 and PM1, which are 35 $\mu$g/m\(^3\) (interim target 1); PM10, which is 70 $\mu$g/m\(^3\) (interim target 1, although it's worth mentioning that Eindhoven has reached interim target 3 and is on its way to achieve target 4); and lastly, NO2, which is 40 $\mu$g/m\(^3\) (interim target 1, although Eindhoven already reached Interim target 2) \cite{who2021aqg}.
     \section{Discussion}
     Based on the results, it is clear that there is a correlation between access to green spaces and income inequality, with lower income neighborhoods having less access to green spaces. However, it is not possible to generalise conclusion about air pollution and income. The results, especially outlined in Table 1, Figure 1 and Figure 4, do not show a clear correlation between air pollution and income in the neighborhoods of Eindhoven. However, as can be seen in Figures 2 and 3, there are neighbourhoods, particularly those clustered in Cluster 1, that are low income and have high levels of air pollution, although the significance of the cluster is mixed. 
-    The models performed poorly overall, with the best performing model being the Random Forest Regressor, which achieved an $R^2$ of 0.02 and an RMSE of 16.57. The poor performance of the models can be attributed to the lack of some necessary additional features, such as public transport access, industrial factors and other factors. Furthermore, Exploratory Data Analysis revealed that air pollution, on average, does not surpass the threshold for harmful levels of PM2.5 and other metrics. Despite no holistic correlation, there are still neighbourhoods that suffer from decreased air quality and suffer from economic strain. Their neighbourhoods necessitate further action from the local government in order to decrease wealth disparities.
+    The models performed poorly overall, with the best performing model being the Random Forest Regressor, which achieved an $R^2$ of 0.02 and an RMSE of 16.57. The poor performance of the models can be attributed to the lack of some necessary additional features, such as public transport access, industrial factors and other factors. Furthermore, Exploratory Data Analysis revealed that air pollution, on average, does not surpass the threshold for harmful levels of PM2.5 and other metrics.
+    However, it is important to note that Eindhoven, although having achieved impressive interim targets for air quality, still has some neighborhoods which haven't reached interim targets 4. If we account for these figures, the picture becomes more complex.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.45\textwidth]{../Images/interim_target_4.png}
+        \caption{Average PM2.5 per Neighborhood}
+        \label{fig:interim_target_4}
+    \end{figure}
+    If we take the advised values for the last target according to the WHO report, then Eindhoven still has a long way to go. The dicrease of air pollution can be done in multiple ways, some which the municipality already started by its own initiative to do, such as restricting the number and type of vehicles in the city centre \cite{eindhoven_zero_emissiezone}. But all pollutants must be reduced, being the most prominent the burning and collection of fossil fuels \cite{li2021spatiotemporal}.
+    Despite no holistic correlation, there are still neighbourhoods that suffer from decreased air quality and suffer from economic strain. Their neighbourhoods necessitate further action from the local government in order to decrease wealth disparities. It has been prevously demonstrated that higher income communities tend to have lower climate resilience, including in exposure to PM2.5 \cite{li2023urban}, so it is hightly advised that the municipality maintaints a close watch to the status of these communities and combats the curb of inequality in relation to climate resilience in these spaces. Therefore, measures like electrification of housing infrastructure \cite{sierraclub2019electrification} and enlarging public transport access are necessary \cite{uttan2022climateresilient} (Eindhoven already has an electrified public transport fleet). The findings of this report that highlight inequalities mostly in the acces to green spaces also prove that these inequalities exist and the best way to stop them is to identify all the potential inequalities and factors and prevent them from happening in the first place. Access to green spaces and incidence of air pollution are intersectional with income inequality. In Eindhoven, air pollution is less of a problem. But this can change for better but also for worse, so it is deemed necessary to highlight this intersectionality.
     \linebreak
     A few ways that the local government can take action to mitigate the inequalities discussed in this report are:
     \begin{itemize}
         \item Increase access to green spaces in low income neighborhoods, by building more parks and green areas.
-        \item Increase public transport access to green spaces so that people can easily reach them.
+        \item Increase public transport access to green spaces so that people can easily reach them, especially in the periphery of city centre, especially those in south of the ring.
         \item Focus on measures which target low income neighbourhoods in net zero emissions and electrification plans.
         \item Increasing public transport capacity for lower income neighbourhoods for commuting.
         \item Turn neighborhoods into walkable, 15 minute neighborhoods, so that people can easily access green spaces and other amenities, either by walking or biking, which would decrease air pollution levels \cite{smartcities8020053}.
@@ -166,6 +177,7 @@
     \section{Maintainability Statement}
     All material in this report, including code and clean datasets, are available in the GitHub repository \url{https://github.com/GuiOliv/EindhovenClimateInequality}. The code is written in Python and uses the Pandas, NumPy, Scikit-learn, Matplotlib and Seaborn libraries. The report is written in LaTeX and can be compiled using any LaTeX editor.
     Read the README file in the repository for more information on its contents.
+    This project also utilised a scrum board tool hosted by Zenkit, which can be accessed at \url{https://public.zenkit.com/c/uVzZR_LpqQ/eindhoven-inequality?v=WCKFdeMBERSa}. The board contains all the tasks and issues that were created during the project, along with their status and progress. Each item will have a time and date for when they were added and completed. The tasks related to the datasets will also contain such datasets and sources.
 \end{multicols}
 
 \bibliographystyle{plain}
@@ -207,6 +219,13 @@
     \includegraphics[width=0.6\textwidth]{../Images/pm25_per_neighborhood.png}
     \caption{Average PM2.5 per Neighborhood (duplicate of Figure~\ref{fig:pm25_per_neighborhood})}
     \label{fig:pm25_per_neighborhood_appendix}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{../Images/interim_target_4.png}
+    \caption{Average PM2.5 per Neighborhood (duplicate of Figure~\ref{fig:interim_target_4})}
+    \label{fig:interim_target_4_appendix}
 \end{figure}
 
 \end{document}
